@@ -85,3 +85,46 @@ Huffmann Tree), and write a new compressed message (ie. in binary).
 Swap with one of your fellow students, and decompress each other’s message.
 
 N/A
+
+# Task 4 - Map and Reduce
+Solve the following using Javascript, for example in your browser’s developer
+console.
+1. Map the list of numbers to a list of their square roots: [1, 9, 16, 100]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.1.JPG)
+
+2. Map the list of words so each is wrapped in a <h1> tag: [“Intro”, “Requirements”, “Analysis”, “Implementation”, “Conclusion”, “Discussion”,
+“References”]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.2.JPG)
+
+3. Use map to uppercase the words (all letters): [“i’m”, “yelling”, “today”]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.3.JPG)
+
+4. Use map to transform words into their lengths: [“I”, “have”, “looooooong”,
+“words”]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.4.JPG)
+
+5. Get the json file comics.json from the course site. Paste it into your
+browser’s Javascript console. Use map to get all the image urls, and wrap
+them in img-tags.
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.5.JPG)
+
+6. Use reduce to sum the array of numbers: [1,2,3,4,5]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.6.JPG)
+
+7. Use reduce to sum the x-value of the objects in the array: [{x: 1},{x:2},{x: 3}]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.7.JPG)
+
+8. Use reduce to flatten an array of arrays: [[1,2],[3,4],[5,6]]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.8.JPG)
+
+9. Use reduce to return an array of the positive numbers: [-3, -1, 2, 4, 5]
+
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.9.JPG)
