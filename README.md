@@ -93,7 +93,7 @@ console.
 
 ![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.1.JPG)
 
-2. Map the list of words so each is wrapped in a <h1> tag: [“Intro”, “Requirements”, “Analysis”, “Implementation”, “Conclusion”, “Discussion”,
+2. Map the list of words so each is wrapped in a <h1> TAG: [“Intro”, “Requirements”, “Analysis”, “Implementation”, “Conclusion”, “Discussion”,
 “References”]
 
 ![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.2.JPG)
@@ -127,4 +127,4 @@ them in img-tags.
 
 9. Use reduce to return an array of the positive numbers: [-3, -1, 2, 4, 5]
 
-![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.9.JPG)
+![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4%2C9.JPG)
