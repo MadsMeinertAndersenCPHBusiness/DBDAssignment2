@@ -65,10 +65,23 @@ characters in a bloom filter, what would be the approximate space consumption, g
 following string: “beebs beepps!!!!! their eerie ears hear pears”
 
 ![Huffman](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/HuffmanTree.png)
+
 2. How many bits is the compressed string? How many bits is the raw ASCII
 string?
+
+Compressed string = 139
+
+(Bits for each char in compressed string: 
+0011 10 10 0011 0010 000 0011 10 10 0111 0111 0010 110 110 110 110 110 000 11111 11110 10 1110 010 000 10 10 010 1110 10 000 10 0110 010 0010 11110 10 0110 010 0111 10 0110 010 0010)
+
+Raw ASCII string = 360
+
 3. Compress “pete is here” with the Huffmann tree from before.
+
+0111 10 11111 10 000 1110 0010 000 11110 10 010 10
+
 4. Write your own 10 word sentence. Generate the Huffmann Code (a new
 Huffmann Tree), and write a new compressed message (ie. in binary).
 Swap with one of your fellow students, and decompress each other’s message.
 
+N/A
