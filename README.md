@@ -35,4 +35,25 @@ First a bloom filter is more space efficient, so it requires less space than a h
 
 A bloom filter has no memory, so we're only able to get yes or no answers. 
 
+4. Using your language of choice, implement a bloom filter with add and
+check functions. The backing bit-array can simply be a long (64 bit
+integer).
 
+See source code.
+
+5.  If you are to store one million ASCII strings with an average size of 10
+characters in a hash set, what would be the approximate space consumption?
+
+
+6. The following equation gives the required number of bits of space per
+inserted key, where E is the false positive rate.
+b = 1.44log2(1/E) (1)
+
+7. How many bits per element are required for a 1% false positive rate?
+
+Fewer than 10 bits
+
+8. How many bits per element are required for a 5% false positive rate?
+
+9. If you are to store one million ASCII strings with an average size of 10
+characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?.
