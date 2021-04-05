@@ -17,4 +17,5 @@ The system continues to operate despite an arbitrary number of messages being dr
 For NoSQL databases the two properties are Consistency and Partition tolerance
 
 3. What are ideal use cases of HBase?
+
 NoSQL databases are great for applications that require large data volume, because NoSQL do not have as many restrictions as other databases. NoSQL are designed to scale out instead of up, which is great if you have a lot of data. 
