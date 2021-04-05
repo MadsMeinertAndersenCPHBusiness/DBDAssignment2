@@ -57,3 +57,18 @@ Fewer than 10 bits
 
 9. If you are to store one million ASCII strings with an average size of 10
 characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?.
+
+
+# Task 3 - Huffman coding
+
+1. Generate Huffmann Code (and draw the Huffmann Tree) based on the
+following string: “beebs beepps!!!!! their eerie ears hear pears”
+
+[Alt]{!https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/HuffmanTree.png}
+2. How many bits is the compressed string? How many bits is the raw ASCII
+string?
+3. Compress “pete is here” with the Huffmann tree from before.
+4. Write your own 10 word sentence. Generate the Huffmann Code (a new
+Huffmann Tree), and write a new compressed message (ie. in binary).
+Swap with one of your fellow students, and decompress each other’s message.
+
