@@ -93,7 +93,7 @@ console.
 
 ![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.1.JPG)
 
-2. Map the list of words so each is wrapped in a <h1> TAG: [“Intro”, “Requirements”, “Analysis”, “Implementation”, “Conclusion”, “Discussion”,
+2. Map the list of words so each is wrapped in a "<h1>" tag: [“Intro”, “Requirements”, “Analysis”, “Implementation”, “Conclusion”, “Discussion”,
 “References”]
 
 ![Solution](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/4.2.JPG)
