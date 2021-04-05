@@ -64,7 +64,7 @@ characters in a bloom filter, what would be the approximate space consumption, g
 1. Generate Huffmann Code (and draw the Huffmann Tree) based on the
 following string: “beebs beepps!!!!! their eerie ears hear pears”
 
-[Alt]{!https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/HuffmanTree.png}
+![Huffman](https://github.com/MadsMeinertAndersenCPHBusiness/DBDAssignment2/blob/main/HuffmanTree.png)
 2. How many bits is the compressed string? How many bits is the raw ASCII
 string?
 3. Compress “pete is here” with the Huffmann tree from before.
