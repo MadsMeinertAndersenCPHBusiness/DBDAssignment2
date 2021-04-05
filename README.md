@@ -3,7 +3,7 @@
 1. What is point of NoSQL databases?
 NoSQL databases are 
 
-2. What is the CAP theorem?
+2. What is the CAP theorem?  
 The CAP theorem, is a theorem where you have three properties: Consistency, Avaliability and Partition tolerance. The theorem says you can only pick two of these properties and optimize them for your database model. 
 
 #### Consistency
