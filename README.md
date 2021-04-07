@@ -44,7 +44,7 @@ See source code.
 5.  If you are to store one million ASCII strings with an average size of 10
 characters in a hash set, what would be the approximate space consumption?
 
-O(n)
+
 
 6. The following equation gives the required number of bits of space per
 inserted key, where E is the false positive rate.
