@@ -33,7 +33,7 @@ First a bloom filter is more space efficient, so it requires less space than a h
 
 3. What is a disadvantage of bloom filters?
 
-A bloom filter has no memory, so we're only able to get yes or no answers. 
+A bloom filter has no memory, so we're only able to get a maybe yes or a definitely no answer. 
 
 4. Using your language of choice, implement a bloom filter with add and
 check functions. The backing bit-array can simply be a long (64 bit
@@ -44,6 +44,7 @@ See source code.
 5.  If you are to store one million ASCII strings with an average size of 10
 characters in a hash set, what would be the approximate space consumption?
 
+O(n)
 
 6. The following equation gives the required number of bits of space per
 inserted key, where E is the false positive rate.
@@ -51,12 +52,20 @@ b = 1.44log2(1/E) (1)
 
 7. How many bits per element are required for a 1% false positive rate?
 
-Fewer than 10 bits
+b = 1.44log2(1/0,01) 
+
+b = 2.88 bits
 
 8. How many bits per element are required for a 5% false positive rate?
 
+b = 1.44log2(1/0,05) 
+
+b = 1.87348319376 bits
+
 9. If you are to store one million ASCII strings with an average size of 10
 characters in a bloom filter, what would be the approximate space consumption, given an allowed false positive rate of 5%?.
+
+1.000.000 * 10 * 1,87348319376 = 18.734831,9376 bits
 
 
 # Task 3 - Huffman coding
@@ -80,11 +89,6 @@ Raw ASCII string = 360
 
 0111 10 11111 10 000 1110 0010 000 11110 10 010 10
 
-4. Write your own 10 word sentence. Generate the Huffmann Code (a new
-Huffmann Tree), and write a new compressed message (ie. in binary).
-Swap with one of your fellow students, and decompress each other’s message.
-
-N/A
 
 # Task 4 - Map and Reduce
 Solve the following using Javascript, for example in your browser’s developer
